@@ -1,0 +1,21 @@
+{
+  "name": "app-1",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch --pretty"
+  },
+  "keywords": [],
+  "author": "Liam Lage",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@trpc/server": "^10.45.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
