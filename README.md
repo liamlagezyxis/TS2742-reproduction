@@ -13,7 +13,7 @@ The inferred type of 'router' cannot be named without a reference to '.pnpm/@typ
 
 `pnpm install` from the root directory.
 
-`pnpm run dev` from either `./apps/app-1` or root directory.
+`npx turbo run dev` from either `./apps/app-1` or root directory.
 
 ## Issue Documentation
 
